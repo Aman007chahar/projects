@@ -10,8 +10,8 @@ public class ATMMachine {
 
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter Your PIN : ");
-        int password  = scanner.nextInt();
-        if(password == atm.PIN){
+        int password = scanner.nextInt();
+        if (password == atm.PIN) {
             atm.menu();
         }
 
